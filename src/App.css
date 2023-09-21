@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightblue;
+}
+
+.App {
+  border: 2px solid black;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: 3em;
+  padding: 3em;
+  min-height: 400px;
+  background-color: white;background-color: lightgoldenrodyellow;
+}
+
+
+.start_button {
+  display: block;
+  margin: 0 auto;
+  font-size: larger;
+  padding: 0 0.5em;
+}
+
+.option_list {
+  width: fit-content;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  /* margin-left: 2em; */
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.option_list button {
+  max-width: 250px;
+  font-size: larger;
+  display: block;
+  padding: 0.5em 2em;
+  min-width: 250px;
+
+}
+
+.next_button {
+  font-size: large;
+  padding: 0.3em 0.8em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.your_result {
+  text-align: center;
+  font-size: 1.5rem;
+  word-spacing: 0.07em;
+}
+
